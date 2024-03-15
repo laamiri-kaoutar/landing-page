@@ -49,6 +49,12 @@ body {
     font-weight: bolder;
     color: #F9FAF8 ;
 }
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 /*____________random-start_____________*/
 .random {
     display: flex;
@@ -91,11 +97,6 @@ body {
     color: #8e9196;
 }
 /*____________random-end________________*/
-
-.hero p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 button {
     padding: 6px 15px;
