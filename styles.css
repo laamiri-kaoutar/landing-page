@@ -8,11 +8,13 @@ body {
     box-sizing: border-box;
 }
 .header {
+    justify-content: space-around;
+    /* padding: 0 180px; */
+}
+.header, .footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0 180px;
     background-color: #1F2937;
 }
 
@@ -98,9 +100,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 0 300px ;
-    height: 400px;
+    /* align-items: center; */
+    padding: 60px 300px ;
+    height: auto;
     background-color: #E5E7EB;
 }
 
@@ -114,10 +116,42 @@ body {
     font-weight: bold;
     align-self: flex-end;
 }
-/* .outher,.quote-text {
-    width: 500px;
-} */
 /*________________Quote-end__________________*/
+
+/*__________sign-up_start_______________*/
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    color: white;
+}
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.last .sign-up button {
+    border: #FFF 2px solid;
+}
+
+.last h2 {
+    margin: 0;
+}
+/*_______________sign-up_end_________________*/
+
+/*____________footer_________________*/
+.footer {
+    justify-content: center;
+    color: #E5E7EB;
+}
+
+/*_____________footer-end________________*/
 
 button {
     padding: 6px 15px;
